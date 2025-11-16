@@ -20,8 +20,8 @@ Features
 
 Setup
 
-git clone https://github.com/yourname/book-rag-system.git
-cd book-rag-system
+git clone https://github.com/virajmane/RAG.git
+cd RAG
 cp .env.example .env
 # Edit .env with your OpenRouter key
 pip install -r requirements.txt
