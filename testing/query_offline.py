@@ -57,11 +57,11 @@ print(filled_prompt)
 print("\n" + "="*80)
 
 # ---------- 5. CALL OPENROUTER (only online part) ----------
-os.environ["OPENAI_API_KEY"] = ""          # ← YOUR OPENROUTER KEY
+os.environ["OPENAI_API_KEY"] = "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"          # ← YOUR OPENROUTER KEY
 os.environ["OPENAI_API_BASE"] = "https://openrouter.ai/api/v1"
 
 llm = ChatOpenAI(
-    model="deepseek/deepseek-chat-v3.1:free",
+    model="openai/gpt-4o-mini",
     temperature=0.0,          # deterministic = easier to audit
 )
 
